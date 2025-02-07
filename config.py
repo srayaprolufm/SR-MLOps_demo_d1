@@ -2,7 +2,7 @@ import pathlib
 import os
 import mlops_demo_d1 as mlops_project
 
-# Define the root directory of the project by resolving the path of the project's __file__ attribute
+# Define the root directory of the project by resolving the path of the project's __file__ attribute SR
 ROOT_DIR = pathlib.Path(mlops_project.__file__).resolve().parent
 
 # Define the directory where raw data files are stored

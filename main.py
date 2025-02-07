@@ -8,7 +8,7 @@ import os
 import pathlib
 import sys
 
-# Define the directory paths for the model and source code
+# Define the directory paths for the model and source code SR
 model_dir = pathlib.Path(__file__).resolve().parent / 'model'
 src = pathlib.Path(__file__).resolve().parent / 'src'
 sys.path.append(str(src))
